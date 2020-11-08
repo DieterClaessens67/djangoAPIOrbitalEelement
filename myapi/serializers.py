@@ -11,4 +11,4 @@ class OrbitalElementSerializer(serializers.HyperlinkedModelSerializer):
         fields = ('id','Object', 'Epoch', 'TP', 'e',
                   'I', 'w', 'Node', 'q', 'Ql', 'P',
                   'MOID', 'A1', 'A2', 'A3', 'DT', 'ref',
-                  'Obj  ect_name')
+                  'Object_name')
