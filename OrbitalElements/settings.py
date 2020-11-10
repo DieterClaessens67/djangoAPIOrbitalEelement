@@ -59,7 +59,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'djangoProject1.urls'
+ROOT_URLCONF = 'OrbitalElements.urls'
 
 TEMPLATES = [
     {
@@ -78,7 +78,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'djangoProject1.wsgi.application'
+WSGI_APPLICATION = 'OrbitalElements.wsgi.application'
 
 
 # Database
