@@ -13,5 +13,6 @@ router.register(r'orbitalelements', views.OrbitalElementViewSet)
 urlpatterns = [
     path('', include(router.urls)),
     path('api-auth/', include('rest_framework.urls',
-                              namespace='rest_framework'))
+                              namespace='rest_framework')),
+    path('account/regiter', views.UserCreate.as_view())
 ]
