@@ -1,0 +1,2 @@
+-Get the thing to actually work in the venv using django
+	-Currently it can't find the django module
