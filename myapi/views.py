@@ -12,7 +12,7 @@ from .serializers import UserSerialiser
 
 class OrbitalElementViewSet(viewsets.ModelViewSet):
      permission_classes = (IsAuthenticatedOrReadOnly,)
-     queryset = OrbitalElement.objects.all().order_by('Object')
+     queryset = OrbitalElement.objects.all().order_by('object')
      serializer_class = OrbitalElementSerializer
 
 
